@@ -16,7 +16,7 @@ export default function Home() {
           image="/sw-episode-3.jpg"
           alt="Image description"
           title="Card Title"
-          description="HELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLDHELLO WORLD"
+          description="Greatest Movie of All Time"
         />
 
         <Cards
