@@ -12,7 +12,7 @@ export default function Cards({
       href="https://www.youtube.com"
       target="_blank"
       rel="noopener noreferrer"
-      className="border-1 border-accent-dark-gray rounded-lg shadow-lg bg-black w-[390px]"
+      className="border border-accent-dark-gray rounded-lg shadow-lg bg-black w-[390px] overflow-hidden"
     >
       {hasImage && (
         <div className="relative w-full h-[250px] flex items-center justify-center">
