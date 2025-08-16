@@ -10,7 +10,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div className="pt-20 grid grid-cols-3 gap-y-7">
+      <div className="pt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-7">
         <Cards
           hasImage={true}
           image="/sw-episode-3.jpg"
