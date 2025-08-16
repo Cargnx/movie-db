@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="bg-gray-900/20 backdrop-blur-sm border-b border-gray-700/50 text-white">
+    <header className="bg-gray-900/20 backdrop-blur-sm border-b border-gray-700/50 text-white shadow-[0px_27px_5px_0px_rgba(0,_0,_0,_0.1)]">
       <div className="flex justify-between items-center  container-xl py-7">
         <p className="font-bold">HELLO WORLD</p>
         <ul className="flex space-x-6">
