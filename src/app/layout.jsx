@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import "./styles/dotGridLayout.css";
+import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,9 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} antialiased dot-grid`}>
         <Header />
         <div className="dot-grid-container container-xl">{children}</div>
+        <div className="pt-40">
+          <Footer />
+        </div>
       </body>
     </html>
   );
